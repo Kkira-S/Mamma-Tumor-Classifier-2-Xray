@@ -93,5 +93,14 @@ pip install -r requirements.txt
 ![Confusion matrix](./README/ConfusionMatrix_MobileNetV2.png)
 </details>
 
-## **Общая структура проекат**  
+## **Общая структура проекта**  
 ```bash
+src/
+├───Image_Xray_mamma
+│   ├──
+├───Model
+│   ├──
+├── README
+├── Test_usage.py            # File for previewing and testing (Ru)
+├── requirements.txt         # Dependency list
+└── README.md                
