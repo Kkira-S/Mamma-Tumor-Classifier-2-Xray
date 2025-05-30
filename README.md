@@ -90,6 +90,7 @@ pip install -r requirements.txt
 
 <details>
 <summary><b>Нажмите, чтобы посмотреть _confusion matrix_</b></summary>
+
 ![Confusion matrix](src/README/ConfusionMatrix_MobileNetV2.png)
 </details>
 
