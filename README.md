@@ -97,10 +97,11 @@ pip install -r requirements.txt
 ```bash
 src/
 ├───Image_Xray_mamma
-│   ├──
+│   ├── test_image.png                   # Тестовое изображение. РЕНТГЕНОГРАФИЧЕСКОЕ ИССЛЕДОВАНИЕ ОБЕЗЛИЧЕНО
 ├───Model
-│   ├──
+│   ├── model_mobilenet_v2_Xray.pth      # Модель в расширении pth для model.load_state_dict
 ├── README
-├── Test_usage.py            # File for previewing and testing (Ru)
-├── requirements.txt         # Dependency list
-└── README.md                
+│   ├── ConfusionMatrix_MobileNetV2.png  # Матрица для Readme
+├── busi-cnn.ipynb                       # Юпитер со всеми вытекающими 
+├── requirements.txt                     # Окружение
+└── README.md                            # Это мы читаем 
