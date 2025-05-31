@@ -30,7 +30,7 @@ num_ftrs_mobile = model_to_load.classifier[1].in_features
 model_to_load.classifier[1] = nn.Linear(num_ftrs_mobile, NUM_CLASSES)
 
 # 3. Загрузка сохраненных весов
-pytorch_model_filename = 'Model/model_mobilenet_v2_Xray.pth' # Путь к сохраненному файлу
+pytorch_model_filename = 'Model/model_mobilenet_v2_ultrasound.pth' # Путь к сохраненному файлу
 
 if os.path.exists(pytorch_model_filename):
     # Загружаем веса, указывая map_location, чтобы корректно загрузить
