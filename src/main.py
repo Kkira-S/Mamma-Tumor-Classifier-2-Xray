@@ -107,7 +107,7 @@ def predict_image(image_path, model, transform, device, idx_to_class_map):
 
 # --- Пример вызова предсказания ---
 if __name__ == '__main__':
-    image_to_predict = "Image_Xray_mamma/test_image.png" # Замени на путь к твоему изображению
+    image_to_predict = "Image_ultrasound_mamma/test_image.png" # Замени на путь к твоему изображению
     if os.path.exists(image_to_predict):
         predict_image(image_to_predict, model_to_load, test_transforms_single, device, idx_to_class)
     else:
