@@ -97,10 +97,10 @@ pip install -r requirements.txt
 ## **Общая структура проекта**  
 ```bash
 src/
-├───Image_Xray_mamma
+├───Image_ultrasound_mamma
 │   ├── test_image.png                   # Тестовое изображение. РЕНТГЕНОГРАФИЧЕСКОЕ ИССЛЕДОВАНИЕ ОБЕЗЛИЧЕНО
 ├───Model
-│   ├── model_mobilenet_v2_Xray.pth      # Модель в расширении pth для model.load_state_dict
+│   ├── model_mobilenet_v2_ultrasound.pth      # Модель в расширении pth для model.load_state_dict
 ├── README
 │   ├── ConfusionMatrix_MobileNetV2.png  # Матрица для Readme
 ├── busi-cnn.ipynb                       # Юпитер со всеми вытекающими 
