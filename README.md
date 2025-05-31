@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-3. Добавтье изображение рентгена молочной железы  в папку _Image_Xray_mamma_ в png формате. Назовите изображение _test_image_. Изменить данные переменные можно в файле In Line 109 _src/main.ru_
+3. Добавтье изображение рентгена молочной железы  в папку _Image_ultrasound_mamma_ в png формате. Назовите изображение _test_image_. Изменить данные переменные можно в файле In Line 109 _src/main.ru_
 4. Запустите _main.ru_
 
 ## Реализованные модели
